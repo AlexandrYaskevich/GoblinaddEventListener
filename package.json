@@ -1,5 +1,5 @@
 {
-  "name": "ahj_2",
+  "name": "goblin",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -26,22 +26,24 @@
     "html-webpack-plugin": "^5.5.0",
     "jest": "^27.4.7",
     "mini-css-extract-plugin": "^2.5.3",
+    "react-app-rewired": "^2.2.1",
     "webpack": "^5.67.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.3"
   },
   "dependencies": {
-    "core-js": "^3.20.3"
+    "core-js": "^3.20.3",
+    "path-browserify": "^1.0.1"
   },
   "description": "[Руководство по настройке Webpack](https://webpack.js.org/guides/)\r [Руководство по настройке GitHub Actions](https://docs.github.com/en/actions/quickstart)\r ![CI](https://github.com/<git@github.com:AlexandrYaskevich/workDom.git>/<git@github.com:AlexandrYaskevich/workDom.gitY>/actions/workflows/web.yml/badge.svg)",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/AlexandrYaskevich/workDom.git"
+    "url": "git+ssh://git@github.com:AlexandrYaskevich/GoblinaddEventListener.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlexandrYaskevich/workDom/issues"
+    "url": "https://github.com/AlexandrYaskevich/GoblinaddEventListener/issues"
   },
-  "homepage": "https://github.com/AlexandrYaskevich/workDom#readme"
+  "homepage": "https://github.com/AlexandrYaskevich/GoblinaddEventListener#readme"
 }

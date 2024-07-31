@@ -35,8 +35,9 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          MiniCssExtractPlugin.loader, 'css-loader',
-        ],
+            'style-loader',
+            'css-loader'
+        ]
       },
     ],
   },
@@ -57,4 +58,7 @@ module.exports = {
       chunkFilename: '[id].css',
     }),
   ],
+  stats: {
+    children: true
+  }
 };
