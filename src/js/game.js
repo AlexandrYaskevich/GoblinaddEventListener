@@ -1,29 +1,14 @@
-import goblin from '../img/goblin.png';
-import indexCell from './indexcell.js'
+import playGoblin from './playgoblin.js';
+
 
 export class Game {
   constructor() {
   this.cells = document.querySelectorAll('itemcell');
   this.image = document.createElement("img");
   this.table = document.querySelectorAll('gametable');
-  this.src = goblin;
-  this.goblinCell = null;
-  this.victorCaunt = 0;
-  this.loserCaunt = 0;
-  this.index = null;
   this.newIndex = indexCell();
   }
 
-
-
- playGoblin (){
-    this.index = this.newIndex;
-    if(this.goblinCell != this.index) {
-      this.goblinCell = this.index;
-      this.cells[this.goblinCell].appendChild(this.image);
-      this.loserCaunt ++;
-    }
-  }
 
   
 playGame() {
