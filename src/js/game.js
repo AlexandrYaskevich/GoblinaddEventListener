@@ -1,4 +1,5 @@
 import goblin from '../img/goblin.png';
+import indexCell from './indexcell.js'
 
 export class Game {
   constructor() {
@@ -10,18 +11,15 @@ export class Game {
   this.victorCaunt = 0;
   this.loserCaunt = 0;
   this.index = null;
-  this.newIndex = null;
+  this.newIndex = indexCell();
   }
 
- indexCell (){
-    this.index = Math.floor(Math.random() * this.cells.length);
-    return this.index;
-  }
+
 
  playGoblin (){
-    this.newIndex = indexCell();
-    if(this.goblinCell != this.newIndex) {
-      this.goblinCell = this.newIndex;
+    this.index = this.newIndex;
+    if(this.goblinCell != this.index) {
+      this.goblinCell = this.index;
       this.cells[this.goblinCell].appendChild(this.image);
       this.loserCaunt ++;
     }
@@ -29,10 +27,10 @@ export class Game {
 
   
 playGame() {
-    setInterval(playGoblin, 1000);
+    setInterval(playGoblin(), 1000);
    
     this.cells.forEach((cell, index) => cell.addEventListener("click", (e)=> {
-      if(e.currentTarget[index] = this.goblinCell)  {
+      if(e.currentTarget[index] = this.cells[this.goblinCell])  {
         this.victorCaunt ++;
         if(this.victorCaunt == 5) {
           this.victorCaunt = 0;
