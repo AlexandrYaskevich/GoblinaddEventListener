@@ -15,7 +15,7 @@ export class Game {
 
  indexCell (){
     this.index = Math.floor(Math.random() * this.cells.length);
-    return this.cells[index];
+    return this.cells[this.index];
   }
 
  playGoblin (){
