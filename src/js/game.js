@@ -15,14 +15,14 @@ export class Game {
 
  indexCell (){
     this.index = Math.floor(Math.random() * this.cells.length);
-    return this.cells[this.index];
+    return this.index;
   }
 
  playGoblin (){
     this.newIndex = indexCell();
     if(this.goblinCell != this.newIndex) {
       this.goblinCell = this.newIndex;
-      this.goblinCell.appendChild(this.image);
+      this.cells[this.goblinCell].appendChild(this.image);
       this.loserCaunt ++;
     }
   }
