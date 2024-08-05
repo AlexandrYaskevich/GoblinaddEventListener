@@ -33,7 +33,8 @@
   },
   "dependencies": {
     "core-js": "^3.20.3",
-    "path-browserify": "^1.0.1"
+    "path-browserify": "^1.0.1",
+    "style-loader": "^4.0.0"
   },
   "description": "[Руководство по настройке Webpack](https://webpack.js.org/guides/)\r [Руководство по настройке GitHub Actions](https://docs.github.com/en/actions/quickstart)\r ![CI](https://github.com/<git@github.com:AlexandrYaskevich/workDom.git>/<git@github.com:AlexandrYaskevich/workDom.gitY>/actions/workflows/web.yml/badge.svg)",
   "repository": {
