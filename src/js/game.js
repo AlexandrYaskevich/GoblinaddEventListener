@@ -7,6 +7,8 @@ export class Game {
   this.image = document.createElement("img");
   this.table = document.querySelectorAll('gametable');
   this.newIndex = indexCell();
+  this.victorCaunt = 0;
+  this.loserCaunt = 0;
   }
 
 
@@ -28,6 +30,7 @@ playGame() {
       }
     }
       else {
+        this.loserCaunt++;
         if(this.loserCaunt > 5) {
           this.victorCaunt = 0;
           this.loserCaunt = 0;
