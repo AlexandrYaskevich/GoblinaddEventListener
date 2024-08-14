@@ -2,7 +2,7 @@ import indexCell from './indexcell.js'
 import goblin from '../img/goblin.png';
 
 const image = document.createElement("img");
-imgage.src = goblin;
+image.src = goblin;
 let newIndex = indexCell();
 let goblinCell = null;
 const cells = document.querySelectorAll('itemcell');

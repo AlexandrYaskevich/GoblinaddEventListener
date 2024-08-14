@@ -1,5 +1,5 @@
 import playGoblin from './playgoblin.js';
-
+import indexCell from './indexcell.js';
 
 export class Game {
   constructor() {
@@ -15,7 +15,7 @@ playGame() {
     setInterval(playGoblin(), 1000);
    
     this.cells.forEach((cell, index) => cell.addEventListener("click", (e)=> {
-      if(e.currentTarget[index] = this.cells[this.goblinCell])  {
+      if(e.currentTarget[index] == this.cells[this.goblinCell])  {
         this.victorCaunt ++;
         if(this.victorCaunt == 5) {
           this.victorCaunt = 0;
