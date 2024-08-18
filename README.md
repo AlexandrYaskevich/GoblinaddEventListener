@@ -5,4 +5,5 @@
 
 #### [Ссылка на Github Pages](https://github.com/AlexandrYaskevich/GoblinaddEventListener/)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/qcbdpysild3dgmnb?svg=true)](https://ci.appveyor.com/project/AlexandrYaskevich/goblinaddeventlistener)
+
+Github Pages: https://AlexandrYaskevich.github.io/HtmlFormValiGoblinaddEventListener
