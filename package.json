@@ -36,7 +36,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "@eslint/config-array": "^0.17.1",
+    "@eslint/config-array": "^18.18.0",
     "@eslint/object-schema": "^2.1.4",
     "core-js": "^3.20.3",
     "path-browserify": "^1.0.1",
