@@ -1,4 +1,4 @@
-import { Game } from "./game";
+import { GamePlay } from "./gamePlay";
 
-const game = new Game();
-game.playGame();
+const game = new GamePlay();
+game.start();
