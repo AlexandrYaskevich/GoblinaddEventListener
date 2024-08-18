@@ -36,12 +36,6 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "@eslint/config-array": "^18.18.0",
-    "@eslint/object-schema": "^2.1.4",
-    "core-js": "^3.20.3",
-    "path-browserify": "^1.0.1",
-    "rimraf": "^6.0.1",
-    "style-loader": "^4.0.0"
   },
   "description": "[Руководство по настройке Webpack](https://webpack.js.org/guides/)\r [Руководство по настройке GitHub Actions](https://docs.github.com/en/actions/quickstart)\r ![CI](https://github.com/<git@github.com:AlexandrYaskevich/workDom.git>/<git@github.com:AlexandrYaskevich/workDom.gitY>/actions/workflows/web.yml/badge.svg)",
   "repository": {
