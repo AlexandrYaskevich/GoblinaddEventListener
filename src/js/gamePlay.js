@@ -1,5 +1,5 @@
-import Board from './Board';
-import Sprite from './Sprite';
+import Board from './board';
+import Sprite from './sprite';
 
 export default class GamePlay {
   constructor() {
