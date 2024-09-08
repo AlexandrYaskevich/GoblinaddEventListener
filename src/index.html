@@ -4,14 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>GoblinGame</title>
+  <title>Document</title>
 </head>
 <body>
-  <h1>Домашнее задание к занятию "2. DOM"</h1>
-  <div class="game">
-    <p>Вы попали: <span class="count-plus"></span></p>
-    <p>Вы промахнулись: <span class="count-minus"></span></p>
-    <table id="field"></table>
+  <div id="status" class="status panel status">
+    Убито кротов: <span id="dead">0</span></br>
+    Промахов: <span id="lost">0</span></br>
+  </div>
+
+  <div id="board"></div>
+
+  <div id="modal" class="hidden">
+    <div id="modal__window">
+      <h2></h2>
+      <div id="modal__buttons">
+        <button class="reset">Играть еще</button>
+      </div>
+    </div>
+  </div>
+  <div class="panel">
+    <button class="reset">С начала</button>
   </div>
 </body>
 </html>
