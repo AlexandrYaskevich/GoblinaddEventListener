@@ -28,7 +28,7 @@ export class GamePlay {
     let i = 0;
     setInterval(function() {
       i++;     
-      if (i === 6) {
+      if (i === 5) {
       i = 0;
       alert("Вы пропустили 5 появлений гоблина!");
       }
