@@ -14,12 +14,28 @@ export class GamePlay {
 
   start() {
     this.gameBoard.createBoard();
-    this.goblin.locateGoblin();
+  
+    this.plusCount();
     this.board.addEventListener("click", (event) => {
       event.preventDefault();
       this.clickCell(event);
     });
+  
   }
+
+  plusCount(){
+    this.goblin.locateGoblin();
+    let i = 0;
+    setInterval(function() {
+      i++;     
+      if (i === 6) {
+      i = 0;
+      alert("Вы пропустили 5 появлений гоблина!");
+      }
+    }, 1000); 
+    
+  }
+
 
   clickCell(event) {
     if (!event.target.classList.contains("goblin")) {
